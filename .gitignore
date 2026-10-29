@@ -39,3 +39,14 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# AI tooling, skills and plugins (local only, not part of the site)
+/.agents/
+/.claude/
+/.codex/
+/.impeccable/
+/skills-lock.json
+
+# local-only working files
+/source-images/
+/task/
